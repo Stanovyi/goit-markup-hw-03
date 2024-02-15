@@ -59,33 +59,73 @@ address {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1128px;
+  width: 1128px;
+}
+
+.py24 {
+  padding: 24px 0;
 }
 /* #endregion */
 
 /* #region Header */
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-navigation-logo {
+  margin-right: 76px;
+}
+
 .navigation-logo-accent {
   color: #2e2f42;
 }
 
 .header-navigation-list {
+  display: flex;
+  gap: 40px;
   line-height: 150%;
 }
 
-.navigation-list-item {
+.header-contacts {
+  margin-left: auto;
+}
+
+.header-contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-navigation-item {
+  display: flex;
+}
+
+.header-navigation-link {
   font-weight: 500;
   color: #2e2f42;
 }
 
-.contacts-list-item {
+.header-contacts-item {
+  display: flex;
+}
+
+.header-contacts-link {
   color: #434455;
 }
 
-.navigation-list-item:hover,
-.navigation-list-item:focus,
-.navigation-list-item:active,
-.contacts-list-item:hover,
-.contacts-list-item:focus {
+.header-navigation-link:hover,
+.header-navigation-link:focus,
+.header-navigation-link:active,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
   color: #404bbf;
 }
 /* #endregion */
