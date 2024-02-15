@@ -239,7 +239,18 @@ address {
 /* #endregion */
 
 /* #region Our portfolio */
+.our-portfolio {
+  padding: 120px 0;
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .our-portfolio-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -253,6 +264,12 @@ address {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+}
+
+.portfolio-item-description {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
 }
 
 .portfolio-item-category {
