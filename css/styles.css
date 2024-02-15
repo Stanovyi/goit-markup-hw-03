@@ -224,7 +224,7 @@ address {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  transform: capitalize;
+  text-transform: capitalize;
   text-align: center;
 }
 
