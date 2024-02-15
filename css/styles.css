@@ -184,7 +184,7 @@ address {
   gap: 24px;
 }
 
-.features-item-title {
+.our-features-title {
   padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -214,25 +214,25 @@ address {
   text-align: center;
 }
 
-.team-list-item {
+.our-team-item {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 24px * 3) / 4);
   text-align: center;
   background-color: #fff;
 }
 
-.team-item-name {
+.our-team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
 }
 
-.team-item-description {
+.our-team-description {
   padding: 32px 16px;
 }
 
-.team-item-position {
+.our-team-position {
   line-height: 150%;
   text-transform: capitalize;
 }
@@ -245,7 +245,7 @@ address {
   gap: 24px;
 }
 
-.portfolio-list-item {
+.our-portfolio-item {
   width: calc((100% - 24px * 2) / 3);
 }
 
@@ -259,20 +259,20 @@ address {
   text-align: center;
 }
 
-.portfolio-item-title {
+.our-portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
 }
 
-.portfolio-item-description {
+.our-portfolio-description {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: 0;
 }
 
-.portfolio-item-category {
+.our-portfolio-category {
   line-height: 150%;
 }
 /* #endregion */
