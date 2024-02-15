@@ -279,7 +279,17 @@ address {
 
 /* #region Footer */
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -287,6 +297,7 @@ address {
 }
 
 .footer-description {
+  max-width: 265px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
