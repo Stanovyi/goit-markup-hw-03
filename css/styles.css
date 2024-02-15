@@ -55,6 +55,12 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 156px;
+  max-width: 1128px;
+}
 /* #endregion */
 
 /* #region Header */
