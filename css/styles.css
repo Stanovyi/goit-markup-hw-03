@@ -65,6 +65,10 @@ address {
 .py24 {
   padding: 24px 0;
 }
+
+.section {
+  padding: 120px 0;
+}
 /* #endregion */
 
 /* #region Header */
@@ -175,10 +179,6 @@ address {
 /* #endregion */
 
 /* #region Our features */
-.our-features {
-  padding: 120px 0;
-}
-
 .our-features-list {
   display: flex;
   gap: 24px;
@@ -195,7 +195,6 @@ address {
 
 /* #region Our team */
 .our-team {
-  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
@@ -218,7 +217,6 @@ address {
 .team-list-item {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 24px * 3) / 4);
-
   text-align: center;
   background-color: #fff;
 }
@@ -241,10 +239,6 @@ address {
 /* #endregion */
 
 /* #region Our portfolio */
-.our-portfolio {
-  padding: 120px 0;
-}
-
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -252,7 +246,7 @@ address {
 }
 
 .portfolio-list-item {
-  width: calc((100% - 24 * 2) / 3);
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .our-portfolio-title {
