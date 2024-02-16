@@ -76,10 +76,6 @@ address {
   width: 1158px;
 }
 
-.py24 {
-  padding: 24px 0;
-}
-
 .section {
   padding: 120px 0;
 }
@@ -100,6 +96,7 @@ address {
 }
 
 .header-navigation-logo {
+  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -114,6 +111,8 @@ address {
 }
 
 .header-contacts {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -127,6 +126,7 @@ address {
 }
 
 .header-navigation-link {
+  padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -136,6 +136,7 @@ address {
 }
 
 .header-contacts-link {
+  padding: 24px 0;
   color: #434455;
 }
 
