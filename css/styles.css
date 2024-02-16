@@ -198,6 +198,10 @@ address {
   gap: 24px;
 }
 
+.our-features-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .our-features-title {
   padding-bottom: 8px;
   font-weight: 500;
