@@ -236,6 +236,7 @@ address {
 }
 
 .our-team-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -253,16 +254,6 @@ address {
 /* #endregion */
 
 /* #region Our portfolio */
-.our-portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.our-portfolio-item {
-  width: calc((100% - 24px * 2) / 3);
-}
-
 .our-portfolio-title {
   margin-bottom: 72px;
   font-weight: 700;
@@ -273,17 +264,28 @@ address {
   text-align: center;
 }
 
-.our-portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.our-portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .our-portfolio-description {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: 0;
+}
+
+.portfolio-description-title {
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
 }
 
 .our-portfolio-category {
