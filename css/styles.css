@@ -86,6 +86,10 @@ address {
 /* #endregion */
 
 /* #region Header */
+.header-container {
+  width: 1158px;
+}
+
 .header {
   display: flex;
   align-items: center;
