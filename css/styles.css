@@ -271,7 +271,7 @@ address {
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
 .our-portfolio-item {
@@ -285,7 +285,7 @@ address {
 }
 
 .portfolio-description-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
